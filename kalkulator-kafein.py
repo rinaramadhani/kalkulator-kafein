@@ -20,7 +20,7 @@ def hitung_kafein_ideal(berat_badan_kg, usia, jenis_kelamin, konsumsi_kafein_mg)
     sisa_kafein = batas_harian - konsumsi_kafein_mg
     
     # Status konsumsi
-    status = "Aman" if sisa_kafein >= 0 else "Berlebihan"
+    status = "Aman✅" if sisa_kafein >= 0 else "Berlebihan❗"
     
     return {
         "batas_harian_mg": batas_harian,
