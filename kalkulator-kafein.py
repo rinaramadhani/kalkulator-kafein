@@ -30,7 +30,7 @@ def hitung_kafein_ideal(berat_badan_kg, usia, jenis_kelamin, konsumsi_kafein_mg)
     }
 
 # Streamlit app
-st.title("Kalkulator Kafein Harian")
+st.title("☕Kalkulator Kafein Harian📊")
 
 # Input data pengguna
 berat_badan = st.number_input("Masukkan berat badan (kg):", min_value=1.0, step=0.1)
