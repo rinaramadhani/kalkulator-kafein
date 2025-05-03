@@ -40,7 +40,7 @@ jenis_kelamin = st.selectbox("Pilih jenis kelamin:", ["Laki-laki", "Wanita"])
 st.write("Masukkan sumber kafein yang dikonsumsi hari ini:")
 # Input sumber kafein
 kopi = st.number_input("Berapa cangkir kopi (240 ml):", min_value=0, step=1)
-teh = st.number_input("Berapa cangkir teh hitam (240 ml):", min_value=0, step=1)
+teh = st.number_input("Berapa cangkir teh (240 ml):", min_value=0, step=1)
 minuman_energi = st.number_input("Berapa kaleng minuman energi (250 ml):", min_value=0, step=1)
 
 # Kandungan kafein per unit (dalam mg)
