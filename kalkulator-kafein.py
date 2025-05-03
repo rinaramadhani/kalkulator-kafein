@@ -42,14 +42,18 @@ st.write("Masukkan sumber kafein yang dikonsumsi hari ini:")
 kopi = st.number_input("Berapa cangkir kopi (240 ml):", min_value=0, step=1)
 teh = st.number_input("Berapa cangkir teh (240 ml):", min_value=0, step=1)
 minuman_energi = st.number_input("Berapa kaleng minuman energi (250 ml):", min_value=0, step=1)
+soda = st.number_input("Berapa kaleng soda (355 ml):", min_value=0, step=1)
+coklat = st.number_input("Berapa gelas minuman coklat (240 ml):", min_value=0, step=1)
 
 # Kandungan kafein per unit (dalam mg)
 kafein_kopi = 95 * kopi
 kafein_teh = 47 * teh
 kafein_energi = 80 * minuman_energi
+kafein_soda = 40 * soda
+kafein_coklat= 20 * coklat
 
 # Total konsumsi kafein
-total_kafein = kafein_kopi + kafein_teh + kafein_energi
+total_kafein = kafein_kopi + kafein_teh + kafein_energi+ kafein_soda + kafein_coklat
 
 # Tombol hitung
 if st.button("Hitung"):
